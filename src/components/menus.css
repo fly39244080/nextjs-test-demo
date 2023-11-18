@@ -1,0 +1,14 @@
+.menus {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menus a {
+    border-bottom: 1px solid blue;
+    line-height: 40px;
+    background: rgba(0,0,0,0.05);
+}
+.menus a.actived {
+ color: orange;
+}
